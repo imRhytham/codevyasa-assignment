@@ -1,0 +1,39 @@
+.filter-sidebar {
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 250px;
+	height: 100%;
+	background-color: white;
+	box-shadow: -1px 0 5px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	z-index: 1000;
+	transition: transform 0.3s ease-in-out;
+}
+
+.close-btn {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.filter-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.filter-content label {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.filter-content label input,
+.filter-content label select {
+	width: 100%;
+	padding: 8px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
